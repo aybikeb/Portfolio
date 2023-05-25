@@ -1,0 +1,1254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html
+{
+    scroll-behavior: smooth;
+    cursor: none;
+}
+header nav ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #707070;
+    padding: 60px;
+    font-weight: 500;
+}
+header nav ul li a:hover
+{
+    color: #E7A8B0;
+}
+header nav ul li .logo img
+{
+    max-width: 45px;
+    position: absolute;
+    top: 6px;
+    left: 50px;
+}
+header nav ul
+{
+    background-color: #FFFCFE;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-bottom-color: #707070;
+    border-left-color: #FFFCFE;
+    border-right-color: #FFFCFE;
+    border-top-color: #FFFCFE;
+}
+.container
+{
+    background-color: #FFFCFE;
+    width: 100%;
+    height: 100vh;
+}
+.ik
+{
+    max-width: 700px;
+    position: absolute;
+    right: 70px;
+    top: 190px;
+}
+.tekst
+{
+    position: absolute;
+    text-align: left;
+    top: 230px;
+    left: 170px;
+    width: 350px;
+    height: 400px;
+    color: #383737;
+}
+.tekst h1
+{
+    font-size: 100px;
+}
+#button
+{
+    box-shadow: 3px 4px 0px 0px #7a7878;
+    background-color:#383737;
+    border-radius:25px;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:17px;
+    padding:7px 48px;
+    margin-top: 35px;
+    font-weight: 500;
+    text-decoration: none;
+    position: absolute;
+}
+
+#button:hover
+{
+    background-color: #F7BED2;
+}
+.strip
+{
+    display: flex;
+    justify-content: center;
+    background-color: #D5D5D5;
+    color: #383737;
+    padding: 30px;
+    width: 100%;
+    text-transform: uppercase;
+}
+.strip h1
+{
+    font-weight: 600;
+    font-size: 45px;
+}
+.overmij
+{
+    position: absolute;
+    text-align: left;
+    top: 1080px;
+    left: 170px;
+    width: 550px;
+    height: 840px;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+.dik
+{
+    font-weight: 600;
+}
+.tekeningen
+{
+    position: absolute;
+    text-align: left;
+    top: 1080px;
+    right: 80px;
+    width: 550px;
+    height: 840px;
+    font-size: 14px;
+}
+.tekeningen #een
+{
+    max-width: 320px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+}
+.tekeningen #een:hover
+{
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.tekeningen #twee
+{
+    max-width: 220px;
+    position: absolute;
+    top: 330px;
+    left: 0;
+    transition: 0.5s;
+}
+.tekeningen #twee:hover
+{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.tekeningen #drie
+{
+    max-width: 290px;
+    position: absolute;
+    top: 500px;
+    right: 0;
+    transition: 0.5s;
+}
+.tekeningen #drie:hover
+{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.tekeningen #blob1
+{
+    max-width: 110px;
+    position: absolute;
+    top: 150px;;
+    left: 50px;
+    transition: 0.5s;
+}
+.tekeningen #blob1:hover
+{
+    margin-top: 50px;
+}
+.tekeningen #blob2
+{
+    max-width: 220px;
+    position: absolute;
+    top: 290px;
+    right: 80px;
+    transition: 0.5s;
+}
+.tekeningen #blob2:hover
+{
+    margin-top: 50px;
+}
+.tekeningen #blob3
+{
+    max-width: 110px;
+    position: absolute;
+    top: 600px;
+    left: 90px;
+    transition: 0.5s;
+}
+.tekeningen #blob3:hover
+{
+    margin-top: 50px;
+}
+#boven
+{
+    position: absolute;
+    left: 670px;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    top: 1900px;
+    background-color: #FDEFEE;
+    cursor: pointer;
+}
+#boven ion-icon
+{
+    width: 25px;
+    color: gray;
+    font-size: 20px;
+}
+#boven:hover
+{
+    background-color: lightgrey;
+}
+footer  {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 2000px;
+    width: 100%;
+    height: 100px;
+    background-color: #656565
+}
+footer h2
+{
+    font-size: 25px;
+    padding: 10px;
+    color: #E7A8B0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+footer h3
+{
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-weight: 500;
+}
+/* Define the cursor style */
+#cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    pointer-events: none;
+    z-index: 999;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+
+
+/***********************************DIT IS PROJECTEN PAGINA */
+#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#image2, #image3 {
+    position: absolute;
+    top: 320px;
+    max-width: 400px;
+    z-index: -1;
+}
+#image1
+{
+    position: absolute;
+    top: 200px;
+    max-width: 400px;
+    z-index: -1;
+}
+
+
+.projecten
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.projecten-container #pro
+{
+    max-width: 200px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+    margin-left: 70px;
+    margin-right: 70px;
+    transition: .2s ease-in-out;
+}
+.projecten-container #pro:hover
+{
+    transform: scale(1.1);
+}
+.text1
+{
+    position: absolute;
+    left: 150px;
+    top: 620px;
+    font-weight: 500;
+}
+.text2
+{
+    position: absolute;
+    left: 463px;
+    top: 620px;
+    font-weight: 500;
+}
+.text3
+{
+    position: absolute;
+    left: 850px;
+    top: 620px;
+    font-weight: 500;
+}
+.text4
+{
+    position: absolute;
+    left: 1190px;
+    top: 620px;
+    font-weight: 500;
+}
+#footer2  {
+    display: flex;
+    justify-content: center;
+    top: 800px;
+    width: 100%;
+    height: 100px;
+    background-color: #656565;
+}
+#footer2 h2
+{
+    font-size: 25px;
+    padding: 10px;
+    color: #E7A8B0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#footer2 h3
+{
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+/**********************************DIT IS RISING TIDE PAGINA */
+
+.stripdun
+{
+    display: flex;
+    justify-content: center;
+    background-color: #FDEFEE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.stripdun p
+{
+    font-weight: 500;
+}
+.inspiratiedocu
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+#dik
+{
+    font-weight: 600;
+}
+.inspiratiedocu p
+{
+    width: 900px;
+    font-weight: 300;
+}
+.inspo
+{
+    display: flex;
+    justify-content: center;
+}
+#ins
+{
+    max-width: 270px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+}
+#pijl1
+{
+    max-width: 230px;
+    position: absolute;
+    top: 760px;
+    left: 320px;
+}
+#pijl2
+{
+    max-width: 250px;
+    position: absolute;
+    top: 500px;
+    right: 310px;
+}
+.stylescape
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+.stylescape p
+{
+    width: 900px;
+    font-weight: 300;
+    margin: 10px;
+}
+.style
+{
+    display: flex;
+    justify-content: center;
+}
+#style
+{
+    max-width: 270px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+    position: absolute;
+    right: 300px;
+}
+#style2
+{
+    max-height: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+    position: absolute;
+    left: 200px;
+    top: 1600px;
+}
+#pijl3
+{
+    max-width: 250px;
+    position: absolute;
+    top: 2000px;
+    left: 560px;
+}
+#pijl4
+{
+    max-width: 200px;
+    position: absolute;
+    top: 1250px;
+    right: 100px;
+}
+#pijl5
+{
+    max-width: 250px;
+    position: absolute;
+    top: 1490px;
+    left: 400px;
+}
+.stylescape2tekst
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+.stylescape2tekst p
+{
+    width: 900px;
+    position: absolute;
+    top: 2330px;
+    font-weight: 300;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.stylescape2
+{
+    display: flex;
+    justify-content: center;
+}
+#stylescape2
+{
+    max-width: 700px;
+    position: absolute;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+    position: absolute;
+    top: 2430px;
+}
+.brandguide
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+.brandguide p
+{
+    width: 900px;
+    position: absolute;
+    top: 2699px;
+    font-weight: 300;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#link a
+{
+    color: #FAC0BC;
+}
+.reflectie
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+.reflectie p
+{
+    width: 900px;
+    position: absolute;
+    top: 2930px;
+    font-weight: 300;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.stripdun2
+{
+    position: absolute;
+    top: 3030px;
+    background-color: #FDEFEE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+.stripdun2 p
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+.contentstrategie
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+.contentstrategie p
+{
+    width: 900px;
+    position: absolute;
+    top: 3100px;
+    font-weight: 300;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.contentdoel
+{
+    display: flex;
+    justify-content: center;
+}
+#contentdoel
+{
+    max-width: 600px;
+    position: absolute;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+    top: 3280px;
+}
+#pijl6
+{
+    max-width: 200px;
+    position: absolute;
+    top: 3370px;
+    right: 180px;
+}
+.reflectie2
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+.reflectie2 p
+{
+    width: 900px;
+    position: absolute;
+    top: 3670px;
+    font-weight: 300;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.stripdun3
+{
+    position: absolute;
+    top: 3830px;
+    background-color: #FDEFEE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+.stripdun3 p
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+.contentstrategie2
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+.contentstrategie2 p
+{
+    width: 900px;
+    position: absolute;
+    top: 3910px;
+    font-weight: 300;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.doelgroep
+{
+    display: flex;
+    justify-content: center;
+}
+#doelgroep
+{
+    max-width: 600px;
+    position: absolute;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+    top: 4000px;
+}
+.content3
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+.content3 p
+{
+    width: 900px;
+    position: absolute;
+    top: 4389px;
+    font-weight: 300;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.youtube
+{
+    display: flex;
+    justify-content: center;
+}
+#youtube
+{
+    max-width: 700px;
+    position: absolute;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+    top: 4530px;
+}
+#pijl7
+{
+    max-width: 250px;
+    position: absolute;
+    top: 4890px;
+    left: 700px;
+}
+.ref
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+.ref p
+{
+    width: 900px;
+    position: absolute;
+    top: 5010px;
+    font-weight: 300;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.stripdun4
+{
+    position: absolute;
+    top: 5120px;
+    background-color: #FDEFEE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+.stripdun4 p
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+.reflectiealgemeen
+{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #383737;
+    font-size: 14px;
+    line-height:1.8em;
+}
+.reflectiealgemeen p
+{
+    width: 900px;
+    position: absolute;
+    top: 5210px;
+    font-weight: 300;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#reflectiealgemeen2
+{
+    top: 5310px;
+}
+#reflectiealgemeen3
+{
+    top: 5410px;
+}
+#boven2
+{
+    position: absolute;
+    left: 680px;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    top: 5550px;
+    background-color: #FDEFEE;
+    cursor: pointer;
+}
+#boven2 ion-icon
+{
+    width: 25px;
+    color: gray;
+    font-size: 20px;
+}
+#boven2:hover
+{
+    background-color: lightgrey;
+}
+#footer3  {
+    display: flex;
+    justify-content: center;
+    top: 5660px;
+    width: 100%;
+    height: 100px;
+    background-color: #656565;
+}
+#footer3 h2
+{
+    font-size: 25px;
+    padding: 10px;
+    color: #E7A8B0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#footer3 h3
+{
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-weight: 500;
+}
+/*****************************DIT IS LEERUITKOMSTEN PAGINA */
+
+.bewijslast
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+.bewijslast p
+{
+    max-width: 1000px;
+    font-weight: 300;
+}
+#bold
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+#pink a
+{
+    color: #383737;
+    line-height: 1.8em;
+}
+#boven6
+{
+    position: absolute;
+    left: 680px;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: #FDEFEE;
+    top: 2485px;
+    cursor: pointer;
+}
+#boven6 ion-icon
+{
+    width: 25px;
+    color: gray;
+    font-size: 20px;
+}
+#boven6:hover
+{
+    background-color: lightgrey;
+}
+#footer4  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #656565;
+    top: 2590px;
+}
+#footer4 h2
+{
+    font-size: 25px;
+    padding: 10px;
+    color: #E7A8B0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#footer4 h3
+{
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+/****************************DIT IS TONY CHOCOLONELY PAGINA */
+
+#link a
+{
+    color: #FAC0BC;
+}
+.piet
+{
+    display: flex;
+    justify-content: center;
+}
+#piet
+{
+    max-width: 550px;
+    margin: 30px;
+}
+.iteratie1
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+}
+#iteratie1
+{
+    max-height: 700px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+}
+#iteratie2
+{
+    max-height: 350px;
+    margin-top: 150px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+}
+#pijl8
+{
+    max-width: 250px;
+    margin-left: 600px;
+    margin-right: 600px;
+    position: absolute;
+    top: 1400px;
+}
+#iteratie3
+{
+    max-height: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+}
+#iteratie4
+{
+    max-height: 600px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+}
+#iteratie5
+{
+    margin-top: 150px;
+    max-height: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+}
+#iteratie6
+{
+    margin-top: 70px;
+    max-height: 340px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+}
+#iteratie7
+{
+    max-height: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+}
+#pijl9
+{
+    position: absolute;
+    max-height: 80px;
+    left: 550px;
+}
+#boven3
+{
+    position: absolute;
+    left: 680px;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    top: 5300px;
+    background-color: #FDEFEE;
+    cursor: pointer;
+}
+#boven3 ion-icon
+{
+    width: 25px;
+    color: gray;
+    font-size: 20px;
+}
+#boven3:hover
+{
+    background-color: lightgrey;
+}
+#footer6  {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    background-color: #656565;
+    top: 5420px;
+}
+#footer6 h2
+{
+    font-size: 25px;
+    padding: 10px;
+    color: #E7A8B0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#footer6 h3
+{
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+/*************************************** PROJECT X PAGINA */
+
+.kyle
+{
+    display: flex;
+    justify-content: center;
+}
+
+#kyle
+{
+    max-width: 200px;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+.kylepijl
+{
+    position: absolute;
+}
+#kylepijl1
+{
+    max-height: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+}
+#kylepijl2
+{
+    max-height: 200px;
+    position: absolute;
+    left: 870px;
+    bottom: 80px;
+}
+.dames
+{
+    display: flex;
+    justify-content: center;
+}
+#dames
+{
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mount
+{
+    display: flex;
+    justify-content: center;
+}
+#mount
+{
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #FDEFEE;
+}
+#pijl13
+{
+    position: absolute;
+    right: 240px;
+    max-height: 200px;
+    top: 2150px;
+}
+.swot
+{
+    display: flex;
+    justify-content: center;
+}
+#swot
+{
+    max-height: 400px;
+    margin: 30px;
+}
+.kleuren
+{
+    display: flex;
+    justify-content: center;
+}
+#kleuren
+{
+    max-height: 200px;
+    margin-bottom: 25px;
+}
+.web
+{
+    display: flex;
+    justify-content: center;
+}
+#web
+{
+    max-height: 350px;
+    margin-bottom: 25px;
+}
+#boven4
+{
+    position: absolute;
+    left: 680px;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    top: 5070px;
+    background-color: #FDEFEE;
+    cursor: pointer;
+}
+#boven4 ion-icon
+{
+    width: 25px;
+    color: gray;
+    font-size: 20px;
+}
+#boven4:hover
+{
+    background-color: lightgrey;
+}
+#footer5  {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    background-color: #656565;
+    top: 5170px;
+}
+#footer5 h2
+{
+    font-size: 25px;
+    padding: 10px;
+    color: #E7A8B0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#footer5 h3
+{
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+/*********************************** EASTER EGG PAGINA*/
+
+.postit
+{
+    display: flex;
+    justify-content: center;
+}
+#postit
+{
+    max-height: 200px;
+    margin: 30px;
+}
+.ida
+{
+    display: flex;
+    justify-content: center;
+}
+#ida
+{
+    max-height: 300px;
+    margin: 30px;
+}
+.moviehamer
+{
+    display: flex;
+    justify-content: center;
+}
+#moviehamer
+{
+    max-height: 256px;
+}
+#hamerlan
+{
+    max-height: 200px;
+    margin-top: 30px;
+}
+.movieida
+{
+    display: flex;
+    justify-content: center;
+}
+#movieida
+{
+    max-height: 700px;
+    margin: 30px;
+}
+#boven5
+{
+    position: absolute;
+    left: 680px;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    top: 2810px;
+    background-color: #FDEFEE;
+    cursor: pointer;
+}
+#boven5 ion-icon
+{
+    width: 25px;
+    color: gray;
+    font-size: 20px;
+}
+#boven5:hover
+{
+    background-color: lightgrey;
+}
+#footer7  {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    background-color: #656565;
+    top: 2920px;
+}
+#footer7 h2
+{
+    font-size: 25px;
+    padding: 10px;
+    color: #E7A8B0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#footer7 h3
+{
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-weight: 500;
+}
