@@ -1,0 +1,131 @@
+#<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stream Buddy</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <section class="container">
+        <header>
+            <a href="#" class="logo"><img src="screensSB/sblogo.png"></a>
+            <ul>
+                <li><a href="#">SHOWS</a></li>
+                <li><a href="#">FILMS</a></li>
+                <li><a href="#">SERIES</a></li>
+                <li><a href="#">FAVORIETEN</a></li>
+            </ul>
+            <div class="zoeken">
+                <a><input type="search" placeholder="Zoeken...">
+                </a>
+            </div>
+            <a href="login.html" class="login"><ion-icon name="person-outline"></ion-icon>ACCOUNT</a>
+        </header> 
+        
+            <div class="balkLinks">
+                <p6 class="diensten">DIENSTEN</p6>
+                <a href="#" id="netflix"><img src=screensSB/sidebar.png></a>
+                <a href="#" id="buttonBL">+</a>
+            </div> 
+            <div class="aanbvtekst">Aanbevolen</div>
+            
+       <div class="slide-container">
+           <span class="slider-span" id="slider-span1"></span>
+           <span class="slider-span" id="slider-span2"></span>
+           <span class="slider-span" id="slider-span3"></span>
+           <span class="slider-span" id="slider-span4"></span>
+           <span class="slider-span" id="slider-span5"></span>
+           <span class="slider-span" id="slider-span6"></span>
+           <span class="slider-span" id="slider-span7"></span>
+           
+           <div class="image-slider">
+               <div class="slides-div" id="slide-1">
+                   <img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/1.jpg" alt="" class="img"
+                     id="img1">
+                   <a href="film1.html" class="button"
+                      id="button-1"></a>
+               </div>
+                <div class="slides-div" id="slide-2">
+                   <img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/2.png" alt="" class="img"
+                     id="img2">
+                   <a href="film2.html" class="button"
+                      id="button-2"></a>
+               </div>
+                <div class="slides-div" id="slide-3">
+                   <img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/3.png" alt="" class="img"
+                     id="img3">
+                   <a href="film3.html" class="button"
+                      id="button-3"></a>
+               </div>
+                <div class="slides-div" id="slide-4">
+                   <img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/4.png" alt="" class="img"
+                     id="img4">
+                   <a href="film4.html" class="button"
+                      id="button-4"></a>
+               </div>
+                <div class="slides-div" id="slide-5">
+                   <img onmouseover="hover(this)" onmouseout="hover2(this)"  src="films/5.png" alt="" class="img"
+                     id="img5">
+                   <a href="film5.html" class="button"
+                      id="button-5"></a>
+               </div>
+                <div class="slides-div" id="slide-6">
+                   <img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/6.png" alt="" class="img"
+                     id="img6">
+                   <a href="film6.html" class="button"
+                      id="button-6"></a>
+               </div>
+               </div>
+        </div>
+        
+           <p class="comedy">Comedy</p>
+           <section class="filmrij">
+               <div class="c1"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/21.png"></div>
+               <div class="c2"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/22.png"></div>
+               <div class="c3"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/23.png"></div>
+                <div class="c4"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/24.png"></div>
+               <div class="c5"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/25.png"></div>
+               <div class="c6"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/26.png"></div>
+           </section>
+        
+             <p class="thriller">Thriller</p>
+           <section class="filmrijT">
+               <div class="t1"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/27.png"></div>
+               <div class="t2"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/28.png"></div>
+               <div class="t3"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/29.png"></div>
+                <div class="t4"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/30.png"></div>
+               <div class="t5"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/31.png"></div>
+               <div class="t6"><img onmouseover="hover(this)" onmouseout="hover2(this)" src="films/32.png"></div>
+           </section>
+        
+<footer>
+<div class="footer-content">
+   <h3>Stream Buddy</h3>
+   <p>Stream Buddy helpt je bij het vinden van de perfecte volgende serie/film/programma.</p>
+
+   <div class="footer-menu">
+      <ul class="f-menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+   </div>
+</div>
+</footer>
+ 
+<script>   
+function hover(x) 
+{
+x.style.height = "220px";
+x.style.width = "160px";
+}
+
+function hover2(x) 
+{
+x.style.height = "200px";
+x.style.width = "140px";
+}
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
