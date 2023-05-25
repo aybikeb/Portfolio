@@ -1,7 +1,7 @@
 # Portfolio - Aybike Balkaya
 
 Dit portfolio bevat een overzicht van het werk dat ik heb gedaan gedurende semester 1, 2 en 3 van mijn opleiding AD ICT-media.
-Hieronder vind je de link naar de websites die ik gehost heb.
+Hieronder vind je de link naar de websites die ik gehost heb en in de branches kan je een kijkje nemen in de codes.
 
 https://i499705.luna.fhict.nl 
 
