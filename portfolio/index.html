@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aybike Balkaya</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="cursor"></div>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="logo"><img src="afbeeldingen/logoaybike.png"></a></li>
+                    <li><a href="#overmij">over mij</a></li>
+                    <li><a href="projecten.html">projecten</a></li>
+                    <li><a href="leeruitkomsten.html">leeruitkomsten</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="tekst">
+                <h1>HI!</h1>
+                <h3>Mijn naam is Aybike Balkaya  en ik
+                    zit in de 2e semester van ict-media.
+                    Wil je meer over mij weten?
+                    <br>Klik dan hier onder!</h3>
+                <a id="button" href="#overmij">OVER MIJ</a>
+            </div>
+            <img class="ik" src="afbeeldingen/aybike2.png">
+        </div>
+        <div class="strip" id="overmij">
+            <h1>OVER MIJ</h1>
+        </div>
+        <div class="overmij">
+            <p>
+                <span class="dik">Hallo!<br></span>
+                Ik zal mijzelf eens even voorstellen. Mijn naam is Aybike Balkaya en ik ben 23 jaar oud. Ik ben woonachtig in Tilburg en woon nog bij m’n ouders met mijn kat Duman.<br><br>
+
+                In het verleden heb ik verschillende soorten opleidingen gedaan op het mbo en heb nooit echt mijn passie kunnen vinden. Tot ik ervoor koos om nog een poging te wagen, maar dit keer op het hbo.<br><br>
+
+                Ik kwam in het jaar 2019 in aanmerking met de opleiding ICT met 5 richtingen en kreeg gelijk het gevoel ‘Dit wil ik doen!’. Helaas kon ik toentertijd geen 21+ toets afleggen, waardoor ik de opleiding had laten gaan. Tot dit jaar!<br><br>
+
+                Sinds jong af aan heb ik al affiniteiten gehad met het designen. Mijn tante is een modeontwerpster en daar begon het eigenlijk al.<br><br>
+
+                Op de middelbare school was ik een enorme fan van Ariana Grande, zo erg dat ik een Instagram account had met edits van haar foto’s. Ik was toen nog maar 15 jaar en kreeg in een maand tijd 2 duizend volgers. Mijn fotoshop skills vielen dus in de smaak en sindsdien heb ik meerdere verschillende projecten uitgevoerd.<br><br>
+
+                Ik noem mijzelf altijd een introverte extravert, dus van beide een beetje. Ik heb veel hobby’s, maar ze versleten best snel helaas. De hobby’s die nog in stand gebleven zijn, zijn netflixen, impulsieve uitgaves doen en verschillende steden/activiteiten verkennen. Ik heb ook pas de diagnose adhd, waardoor ik nu ook beter begrijp waarom ik zo vaak van hak naar tak spring.<br><br>
+
+                Ik kan nog uren doorgaan, maar ik hoop dat jullie, ook al is het maar een beetje, een beter beeld over mij hebben.</p>
+        </div>
+        <div class="tekeningen">
+            <img id="een" src="afbeeldingen/oplei.png">
+            <img id="twee" src="afbeeldingen/dumannnn2.png">
+            <img id="drie" src="afbeeldingen/ariana.png">
+            <img id="blob1" src="afbeeldingen/blob1.svg">
+            <img id="blob2" src="afbeeldingen/blob2.svg">
+            <img id="blob3" src="afbeeldingen/blob3.svg">
+        </div>
+        <button id="boven"><ion-icon name="arrow-up-outline"></ion-icon></button>
+        <footer id="footer">
+            <h2>Laten we eens babbelen</h2>
+            <h3>aybike_b@live.nl</h3>
+        </footer>
+
+
+        <script>
+            let btn = document.getElementById("boven");
+            btn.addEventListener("click", function(){
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            });
+
+
+        </script>
+        <script src="main.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    </body>
+</html>
