@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.start
+{
+    position: relative;
+    background: linear-gradient(110deg,#ffcc00,#fff 70%,#282828 60%);
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header .logo img
+{
+    max-width: 200px;
+    margin-right: 20px;
+}
+header ul
+{
+    display: flex;
+}
+header ul li
+{
+    list-style: none;
+    margin: 0 10px;
+}
+header ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+header ul li a:hover
+{
+    color: #ffcc00;
+}
+.app
+{
+    position: absolute;
+    right: 340px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.app:hover
+{
+    background: black;
+    color: white;
+}
+.app ion-icon
+{
+    margin-right: 10px;
+    font-size: 1.4em;
+}
+.content
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .tekst
+{
+    max-width: 679px;
+}
+.content .tekst h2
+{
+    font-size: 2.5em;
+    color: black;
+}
+.content .tekst p
+{
+    font-size: 1.1em;
+    color: black;
+    line-height: 1.8em;
+}
+.content .tekst h4
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: black;
+}
+.button
+{
+    background: black;
+    color: gainsboro;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    margin: 5px 20px 5px 0;
+    border-radius: 5px;
+}
+.button:hover
+{
+    background: #ffcc00;
+    color: black;
+}
+.button ion-icon
+{
+    margin-right: 10px;
+    font-size: 1.4em;
+}
+.telefoon img
+{
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-top: 100px;
+    max-width: 250px;
+    display: none;
+}
+.telefoon img.actief
+{
+    display: block;
+}
+.dots
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.dots .dot
+{
+    position: relative;
+    right: 100px;
+    width: 10px;
+    height: 30px;
+    background: #ffcc00;
+    display: inline-flex;
+    margin: 5px;
+    cursor: pointer;
+}
+.dots .dot.actief
+{
+    background: white;
+}
+.smedia
+{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+}
+.smedia li
+{
+    list-style: none;
+    margin-right: 20px;
+}
+.smedia li a
+{
+    font-size: 1.8em;
+    color: black;
+}
+.smedia li a:hover
+{
+    color: #ffcc00;
+}
