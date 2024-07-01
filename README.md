@@ -104,19 +104,16 @@ Hieronder vind je een overzicht van het werk dat ik heb gemaakt voor dit project
 
 ## Semester 4 Afstudeer stage
 
-Tijdens mijn afstudeerperiode heb ik de volgende activiteiten uitgevoerd:
+Tijdens mijn afstudeerperiode heb ik de volgende activiteiten uitgevoerd bij 2 bedrijven:
 
-1. **Wireframing en Prototyping**:
-   - Ontwerpen van wireframes om de structuur en flow van de applicatie te bepalen.
-   - Creëren van interactieve prototypes om het ontwerp te testen en te verfijnen.
-
-3. **Visueel Ontwerp**:
+1. **Visueel Ontwerp**:
    - Ontwikkelen van een visueel aantrekkelijke interface die aansluit bij de branding van Recrubo.
+     * 
+     
+   - Ontwikkelen van een visueel aantrekkelijke interface die aansluit bij de branding van PinVandaag
+     *
+     
    - Implementeren van consistentie in kleurgebruik, typografie en iconografie.
-
-4. **Usability Testing**:
-   - Uitvoeren van gebruikerstests om de bruikbaarheid van het ontwerp te evalueren.
-   - Verzamelen van feedback en iteratief verbeteren van het ontwerp op basis van testresultaten.
 
 
 ## Contact
