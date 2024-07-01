@@ -99,8 +99,24 @@ Om dit doel te bereiken, hebben we een interactieve app ontwikkeld die gebruiker
 Hieronder vind je een overzicht van het werk dat ik heb gemaakt voor dit project:
 
 * Concept 1 game design https://xd.adobe.com/view/d363444b-39d4-4813-a5bd-64ef0b9ad9f0-8630/ 
-* Concept 2 app design itteratie https://xd.adobe.com/view/7d35d786-76b7-4c41-af65-265ceec37aea-2866/
-* Concept 2 app vernieuwde design https://xd.adobe.com/view/2037dbc0-997d-47a1-8b0a-32485fd1d1af-7564/ 
+* Concept 2 app design iteratie https://xd.adobe.com/view/7d35d786-76b7-4c41-af65-265ceec37aea-2866/
+* Concept 2 app vernieuwde design https://xd.adobe.com/view/2037dbc0-997d-47a1-8b0a-32485fd1d1af-7564/
+
+## Semester 4 Afstudeer stage
+
+Tijdens mijn afstudeerperiode heb ik de volgende activiteiten uitgevoerd:
+
+1. **Wireframing en Prototyping**:
+   - Ontwerpen van wireframes om de structuur en flow van de applicatie te bepalen.
+   - Creëren van interactieve prototypes om het ontwerp te testen en te verfijnen.
+
+3. **Visueel Ontwerp**:
+   - Ontwikkelen van een visueel aantrekkelijke interface die aansluit bij de branding van Recrubo.
+   - Implementeren van consistentie in kleurgebruik, typografie en iconografie.
+
+4. **Usability Testing**:
+   - Uitvoeren van gebruikerstests om de bruikbaarheid van het ontwerp te evalueren.
+   - Verzamelen van feedback en iteratief verbeteren van het ontwerp op basis van testresultaten.
 
 
 ## Contact
