@@ -106,14 +106,9 @@ Hieronder vind je een overzicht van het werk dat ik heb gemaakt voor dit project
 
 Tijdens mijn afstudeerperiode heb ik de volgende activiteiten uitgevoerd bij 2 bedrijven:
 
-1. **Visueel Ontwerp**:
-   - Ontwikkelen van een visueel aantrekkelijke interface die aansluit bij de branding van Recrubo.
-     * 
-     
-   - Ontwikkelen van een visueel aantrekkelijke interface die aansluit bij de branding van PinVandaag
-     *
-     
-   - Implementeren van consistentie in kleurgebruik, typografie en iconografie.
+* Ontwikkelen van een visueel aantrekkelijke interface die aansluit bij de branding van Recrubo.
+* Ontwikkelen van een visueel aantrekkelijke interface die aansluit bij de branding van PinVandaag
+* Implementeren van consistentie in kleurgebruik, typografie en iconografie.
 
 
 ## Contact
