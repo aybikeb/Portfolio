@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+#container
+{
+    background-color: coral;
+    border-radius: 10px;
+    height: 275px;
+    width: 750px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+#button
+{
+  font-size:15px;
+  margin: 50px;
+  width:240px;
+  height:50px;
+  border-width:0px;
+  color:#fff;
+  border-color:rgba(35, 108, 192, 1);
+  font-weight:bold;
+  border-top-left-radius:17px;
+  border-top-right-radius:17px;
+  border-bottom-left-radius:17px;
+  border-bottom-right-radius:17px;
+  box-shadow: 0px 10px 14px -7px rgba(21, 118, 233, 1);
+  text-shadow: 0px 1px 0px rgba(18, 74, 141, 1);
+  background:linear-gradient(rgba(179, 198, 219, 1), rgba(74, 144, 226, 1));
+}
+
+#button:hover {
+  background: linear-gradient(rgba(74, 144, 226, 1), rgba(179, 198, 219, 1));
+}
+
+#output
+{
+    margin: 25px auto;
+    font-size: 26px;
+    color: white;
+    font-weight: 00;
+    font-family: poppins;
+}
+              
